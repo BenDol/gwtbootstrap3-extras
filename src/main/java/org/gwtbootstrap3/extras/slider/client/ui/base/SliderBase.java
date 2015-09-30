@@ -347,8 +347,8 @@ public abstract class SliderBase<T> extends Widget implements
         updateSliderForNumberArray(SliderOption.TICKS, ticks);
     }
 
-    public List<String> getTicksPositions() {
-        return getStringArrayAttribute(SliderOption.TICKS_POSITIONS, Collections.<String>emptyList());
+    public List<Double> getTicksPositions() {
+        return getNumberArrayAttribute(SliderOption.TICKS_POSITIONS, Collections.<Double>emptyList());
     }
 
     /**
@@ -357,8 +357,8 @@ public abstract class SliderBase<T> extends Widget implements
      *
      * @param ticksPositions
      */
-    public void setTicksPositions(final List<String> ticksPositions) {
-        updateSliderForStringArray(SliderOption.TICKS_POSITIONS, ticksPositions);
+    public void setTicksPositions(final List<Double> ticksPositions) {
+        updateSliderForNumberArray(SliderOption.TICKS_POSITIONS, ticksPositions);
     }
 
     public List<String> getTicksLabels() {
