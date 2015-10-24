@@ -26,7 +26,7 @@ import com.google.gwt.resources.client.TextResource;
 
 /**
  * @author Ben Dol
-    */
+ */
 public class GalleryEntryPoint implements EntryPoint {
 
     @Override

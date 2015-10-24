@@ -28,7 +28,7 @@ import com.google.gwt.resources.client.TextResource;
  * @author Ben Dol
  */
 public interface GalleryClientBundle extends ClientBundle {
-  static final GalleryClientBundle INSTANCE = GWT.create(GalleryClientBundle.class);
+  GalleryClientBundle INSTANCE = GWT.create(GalleryClientBundle.class);
 
   @Source("resource/js/bootstrap-image-gallery-3.1.3.min.cache.js")
   TextResource gallery();
